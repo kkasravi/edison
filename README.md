@@ -16,5 +16,8 @@ https://developer.weaved.com/portal/members/edison.php
 wget https://nodejs.org/dist/v4.2.1/node-v4.2.1-linux-x86.tar.gz
 tar xzf node-v4.2.1-linux-x86.tar.gz
 mv node-v4.2.1-linux-x86 /opt
-#update .bash_profile
-#export PATH=/opt/node-v4.2.1-linux-x86/bin:$PATH
+update .bash_profile
+export PATH=/opt/node-v4.2.1-linux-x86/bin:$PATH
+
+## install node-red
+npm install -g --unsafe-perm node-red
