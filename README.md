@@ -13,6 +13,7 @@ https://developer.weaved.com/portal/index.php
 https://developer.weaved.com/portal/members/edison.php
 
 ## install node.js
+
 wget https://nodejs.org/dist/v4.2.1/node-v4.2.1-linux-x86.tar.gz
 tar xzf node-v4.2.1-linux-x86.tar.gz
 mv node-v4.2.1-linux-x86 /opt
