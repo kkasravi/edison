@@ -1,7 +1,9 @@
 # edison
-##
-setup wifi from serial terminal
+
+##setup wifi from serial terminal
+
 configure_edison --wifi
+
 configure_edison --password
 
 ## enable wifi on reboot
