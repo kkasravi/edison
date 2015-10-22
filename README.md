@@ -6,6 +6,8 @@ configure_edison --wifi
 
 configure_edison --password
 
+configure_edison --name
+
 ## enable wifi on reboot
 systemctl enable wpa_supplicant
 
