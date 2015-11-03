@@ -5,9 +5,10 @@
 2. Send me your email that you used when signing up so I can add you to the edison remote login
 
 ## Sign up for lifx cloud account
-1. Sign up https://cloud.lifx.com/
-2. Generate a new token to control your lifx lights: https://cloud.lifx.com/settings
-3. Send me the color you want to have when changing other friends light bulbs:
+1. Once you get your light you need to download the iOS or Android app to control it.
+2. After downloading the app you can sign up at https://cloud.lifx.com/ to remotely control the light 
+3. Generate a new token to control your lifx lights: https://cloud.lifx.com/settings
+4. Send me the color you want to have when changing other friends light bulbs and well as your remote access token (from 3.):
 
 > - Kyler - red
 > - Julian - blue
