@@ -13,6 +13,8 @@
 > - Ian - yellow
 > - Julian - blue
 > - Kyler - red
+> - Oliver - light green
+> - Nils - purple
 > - Xander - pink
 
 ## ssh into your edison board
