@@ -13,6 +13,7 @@
 > - Ian - yellow
 > - Julian - blue
 > - Kyler - red
+> - Xander - pink
 
 ## ssh into your edison board
 1. Go to https://developer.weaved.com/portal/members/home.php
