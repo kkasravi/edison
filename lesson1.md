@@ -10,8 +10,9 @@
 3. Generate a new token to control your lifx lights: https://cloud.lifx.com/settings
 4. Send me the color you want to have when changing other friends light bulbs and well as your remote access token (from 3.):
 
-> - Kyler - red
+> - Ian - yellow
 > - Julian - blue
+> - Kyler - red
 
 ## ssh into your edison board
 1. Go to https://developer.weaved.com/portal/members/home.php
