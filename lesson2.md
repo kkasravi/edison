@@ -12,7 +12,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 `vi .ssh/authorized_keys`
 3. Change mode to 'insert' by pressing 'i'
 4. Cut & paste the contents of your local .ssh/id_rsa.pub into this file
-5. Save the file by doing `<esc>:wq
+5. Save the file by doing `<esc>:wq`
 
 ## Changing a LIFX light to your color using the web interface
 1. Go to `http://api.developer.lifx.com/docs/set-state`
@@ -20,6 +20,6 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 3. Insert the following values in the fields
   - selector: all
   - power: on
-  - color: <your color> saturation:1.0
+  - color: `<your color>` saturation:1.0
   - brightness: 1.0
   - duration: 1.0
