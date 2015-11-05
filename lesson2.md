@@ -13,7 +13,8 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 3. Change mode to 'insert' by pressing 'i'
 4. Cut & paste the contents of your local .ssh/id_rsa.pub into this file
 5. Save the file by doing `<esc>:wq`
-6. logout and log back in to confirm no password is required
+6. Change the permissions of authorized_keys to read-only by you `chmod 600 .ssh/authorized_keys`
+7. logout and log back in to confirm no password is required
 
 ## Changing a LIFX light to your color using the web interface
 1. Go to `http://api.developer.lifx.com/docs/set-state`
