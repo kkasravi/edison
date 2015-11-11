@@ -59,7 +59,8 @@ ssh -l LOGIN proxya.yoics.net -p 34141
     }
 ]
 ```
-If you get back something like just 2 bracket symbols '[]' and nothing else [you need to upgrade your lights firmware](https://support.lifx.com/hc/en-us/articles/202996584-Original-LIFX-Firmware-update)
+If you get back something like just 2 bracket symbols '[]' and nothing else [you need to upgrade your light firmware and claim it](https://support.lifx.com/hc/en-us/articles/203711234-Connecting-your-LIFX-to-the-Cloud)
+
 
 ## Changing a LIFX light to your color using the web interface
 1. Go to `http://api.developer.lifx.com/docs/set-state`
