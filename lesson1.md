@@ -15,6 +15,7 @@
 > - Kyler - red
 > - Oliver - light green
 > - Miles - orange
+> - Matthijs - #EE82EE
 > - Nils - purple
 > - Xander - pink
 
