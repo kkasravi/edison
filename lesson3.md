@@ -5,6 +5,7 @@
 It will provide a ssh login similar to
 ssh -l LOGIN proxya.yoics.net -p 34141
 2. Bring up a terminal window and type in the command above substituting LOGIN with your name
+   * example `ssh -l freddie proxya.yoics.net -p 34141`
 
 ## Change a buddy's light using the lifx command
 1. Type in 'lifx' and hit return to see its usage.

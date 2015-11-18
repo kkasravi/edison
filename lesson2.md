@@ -5,6 +5,7 @@
 It will provide a ssh login similar to
 ssh -l LOGIN proxya.yoics.net -p 34141
 2. Bring up a terminal window and type in the command above substituting LOGIN with your name
+   * example `ssh -l freddie proxya.yoics.net -p 34141`
 
 ## Enabling auto-login without a password
 1. Create a directory called .ssh
