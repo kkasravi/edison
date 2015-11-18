@@ -1,4 +1,4 @@
-# Lesson 2
+# Lesson 2 Autologin and LIFX WebInterface
 
 ## ssh into your edison board
 1. Go to https://developer.weaved.com/portal/members/home.php and select the edisonX_ssh service shared with you.

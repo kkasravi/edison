@@ -1,4 +1,4 @@
-# Lesson 1
+# Lesson 1 Getting Started
 
 ## Sign up for weaved
 1. https://developer.weaved.com/portal/index.php
