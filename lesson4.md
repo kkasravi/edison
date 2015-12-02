@@ -39,27 +39,13 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 4. Type in the following
    * `var lifx = require('./lifx');`
    * `var lx   = lifx.init();`
-5. Find out the name your bulb is by typing the following:
-   * `var bulb=lx.bulbs.<tab>`
-   * You should see something like  
-```
-> lx.bulbs.
-lx.bulbs.__defineGetter__      lx.bulbs.__defineSetter__      lx.bulbs.__lookupGetter__
-lx.bulbs.__lookupSetter__      lx.bulbs.constructor           lx.bulbs.hasOwnProperty
-lx.bulbs.isPrototypeOf         lx.bulbs.propertyIsEnumerable  lx.bulbs.toLocaleString
-lx.bulbs.toString              lx.bulbs.valueOf               
-
-lx.bulbs.d073d5039c3f          
-```
-   * Type in the first letter of the last line after lx.bulbs (in this case it's d073d5039c3f) and press `<tab>` again
-     - `d<tab>`
-   * Turn the light off by typing in
-     - `lx.lightsOff(bulb);`
-   * Go back to 'command' mode (from insert mode)
-     - Press `<escape>`
-   * Save the file by typing in
-     - `:wq`
-   * Run the file
-     `./colors`
+   * `var bulb=lx.bulbs.d073d5039c3f;`
+   * `lx.lightsOff(bulb);`
+5. Go back to 'command' mode (from insert mode) by pressing
+   * `<escape>`
+6. Save the file by typing in
+   * `:wq`
+7. Run the file
+   * `./colors`
  
 
