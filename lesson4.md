@@ -13,7 +13,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 2. Change directory to go into the lesson4 directory
    * `cd lesson4`
 3. Edit a new file using vi. 
-   * `vi colors.js`
+   * `vi colors`
 4. Go into 'insert' mode 
    * press `i`
 5. Type in the following
