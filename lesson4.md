@@ -39,8 +39,11 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 4. Type in the following
    * `var lifx = require('lifx');`
    * `var lx   = lifx.init();`
-   * `var bulb=Object.keys(lx.bulbs)[0];`
-   * `lx.lightsOff(bulb);`
+   * `setTimeout(function() {`
+   * `   var bulb=Object.keys(lx.bulbs)[0];`
+   * `   lx.lightsOff(bulb);`
+   * `}, 2000);`
+   * `setTimeout(process.exit, 3000);`
 5. Go back to 'command' mode (from insert mode) by pressing
    * `<escape>`
 6. Save the file by typing in
