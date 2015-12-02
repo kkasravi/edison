@@ -37,7 +37,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 3. Open a new line under the last line in the file
    * `o`
 4. Type in the following
-   * `var lifx = require('./lifx');`
+   * `var lifx = require('lifx');`
    * `var lx   = lifx.init();`
    * `var bulb=Object.keys(lx.bulbs)[0];`
    * `lx.lightsOff(bulb);`
