@@ -39,7 +39,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 4. Type in the following
    * `var lifx = require('./lifx');`
    * `var lx   = lifx.init();`
-   * `var bulb=lx.bulbs.d073d5039c3f;`
+   * `var bulb=Object.keys(lx.bulbs)[0];`
    * `lx.lightsOff(bulb);`
 5. Go back to 'command' mode (from insert mode) by pressing
    * `<escape>`
