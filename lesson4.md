@@ -7,6 +7,10 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 2. Bring up a terminal window and type in the command above substituting LOGIN with your name
    * example `ssh -l freddie proxya.yoics.net -p 34141`
 
+## Install the lifx command
+1. Install the lifx command using npm
+   * npm install lifx
+
 ## Create a simple script that runs javascript
 1. Create a subdirectory called lesson4
    * `mkdir lesson4`
@@ -20,6 +24,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `#! /usr/bin/env node`
    * `console.log('You are awesome!!');`
 6. Save the file 
+   * `press <escape>`
    * `:wq`
 7. Make the script executable
    * `chmod +x colors`
