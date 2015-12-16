@@ -37,6 +37,10 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `echo $yournamebackwards | wc | awk '{print $3}'`
 4. Count down from the number of characters in your name to 1 using a command called seq
    * `seq $(echo $yournamebackwards | wc | awk '{print $3}') -1 1`
+5. Save the file 
+   * `:wq`
+6. Run the script
+   * ./yourname
 
 ## Now let's go back into the program and create a loop that does a countdown printing each number per line using what we did above
 1. Edit the yourname file again
@@ -48,8 +52,12 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `for i in $(seq $(echo $yournamebackwards | wc | awk '{print $3}') -1 1);do`
    * `echo $i`
    * `done`
+4. Save the file 
+   * `:wq`
+5. Run the script
+   * ./yourname
 
-## Now let's go back into the program and print out each letter as we reverse your name
+## Now let's go back into the program again and print out each letter as we reverse your name
 1. Edit the yourname file again
    * `vi yourname`
 2. Go to where the `echo $i` line is and open a line
