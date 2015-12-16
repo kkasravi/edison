@@ -35,7 +35,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `echo $yournamebackwards | wc`
 3. Get the last number from the word count command
    * `echo $yournamebackwards | wc | awk '{print $3}'`
-4. Count down from the number of characters in your name to 1
+4. Count down from the number of characters in your name to 1 using a command called seq
    * `seq $(echo $yournamebackwards | wc | awk '{print $3}') -1 1`
 
 ## Now let's go back into the program and create a loop that does a countdown printing each number per line using what we did above
@@ -45,7 +45,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `G`
    * `o`
 3. Create a loop and print each number per line
-   * `for i in $(seq   $(echo $yournamebackwards | wc | awk '{print $3}') -1 1);do`
+   * `for i in $(seq $(echo $yournamebackwards | wc | awk '{print $3}') -1 1);do`
    * `echo $i`
    * `done`
 
