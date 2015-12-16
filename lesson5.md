@@ -17,7 +17,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * press `i`
 5. Type in the following
    * `#!/bin/sh`
-   * `yournamebackwards="<last> <first>"`
+   * `yournamebackwards="<lastnamebackwards> <firstnamebackwards>"`
    * `yourname=""`
    * `echo $yournamebackward`
 6. Save the file 
@@ -29,7 +29,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 
 ## Let's get the length of all the characters in your name using commands and unix pipes
 1. Print your name to the terminal
-   * `yournamebackwards="<lastbackwards> <firstbackwards>"`
+   * `yournamebackwards="<lastnamebackwards> <firstnamebackwards>"`
    * `echo $yournamebackwards`
 2. Pipe it to a word count command
    * `echo $yournamebackwards | wc`
