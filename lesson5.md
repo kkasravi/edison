@@ -19,7 +19,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `#!/bin/sh`
    * `yournamebackwards="<lastnamebackwards> <firstnamebackwards>"`
    * `yourname=""`
-   * `echo $yournamebackward`
+   * `echo $yournamebackwards`
 6. Save the file 
    * `:wq`
 7. Make the script executable
@@ -38,7 +38,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 4. Count down from the number of characters in your name to 1
    * `seq $(echo $yournamebackwards | wc | awk '{print $3}') -1 1`
 
-## Now let's go back into the program and create a loop that does a countdown printing each number per line
+## Now let's go back into the program and create a loop that does a countdown printing each number per line using what we did above
 1. Edit the yourname file again
    * `vi yourname`
 2. Go to the end of the file and open a line
