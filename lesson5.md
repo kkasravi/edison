@@ -4,7 +4,7 @@
 1. Go to https://developer.weaved.com/portal/members/home.php
 It will provide a ssh login similar to
 ssh -l LOGIN proxya.yoics.net -p 34141
-2. Bring up a terminal window and type in the command above substituting LOGIN with your name
+2. Bring up a terminal window and type in the command above *substituting* LOGIN with your name
    * example `ssh -l freddie proxya.yoics.net -p 34141`
 
 ## Create a simple script called yourname
@@ -15,7 +15,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `vi yourname`
 4. Go into 'insert' mode 
    * press `i`
-5. Type in the following
+5. Type in the following below. Your lastname and firstname should be backwards. For example "fred smith" would be "htims derf"
    * `#!/bin/sh`
    * `yournamebackwards="<lastnamebackwards> <firstnamebackwards>"`
    * `yourname=""`
@@ -27,7 +27,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 8. Run the script
    * ./yourname
 
-## Let's get the length of all the characters in your name using commands and unix pipes
+## Let's get the length of all the characters in your name using commands and unix pipes on the command line
 1. Print your name to the terminal
    * `yournamebackwards="<lastnamebackwards> <firstnamebackwards>"`
    * `echo $yournamebackwards`
@@ -37,10 +37,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `echo $yournamebackwards | wc | awk '{print $3}'`
 4. Count down from the number of characters in your name to 1 using a command called seq
    * `seq $(echo $yournamebackwards | wc | awk '{print $3}') -1 1`
-5. Save the file 
-   * `:wq`
-6. Run the script
-   * ./yourname
+5. Copy the last line `seq $(echo $yournamebackwards | wc | awk '{print $3}') -1 1` - you'll paste it into your program in the next step
 
 ## Now let's go back into the program and create a loop that does a countdown printing each number per line using what we did above
 1. Edit the yourname file again
@@ -71,5 +68,17 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `:wq`
 5. Run the script
    * ./yourname
+
+## The final script should look like
+```
+#!/bin/sh
+yournamebackwards="ivarsak mak"
+yourname=""
+for i in $(seq   $(echo $yournamebackwards | wc | awk '{print $3}') -1 1);do 
+nextletter=$(echo $yournamebackwards | cut -c$i)
+yourname=$yourname$nextletter
+echo $yourname
+done
+```
  
 
