@@ -10,7 +10,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 ## Clone a git repo into your directory
 1. Create a subdirectory called lesson6
 2. Change directory to go into the lesson6 directory
-   * `cd lesson5`
+   * `cd lesson6`
 3. Clone a webvr repo using git
    * `git clone https://github.com/borismus/webvr-boilerplate.git`
 4. Change to this directory
