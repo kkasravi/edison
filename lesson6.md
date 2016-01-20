@@ -1,4 +1,6 @@
-# Lesson 6 Create a webvr scene and edit it ## ssh into your edison board
+# Lesson 6 Create a webvr scene and edit it 
+
+## ssh into your edison board
 1. Go to https://developer.weaved.com/portal/members/home.php
 It will provide a ssh login similar to
 ssh -l LOGIN proxya.yoics.net -p 34141
@@ -15,7 +17,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `cd webvr-boilerplate`
 5. Run a web server that can show the contents of this directory on port 1880
    * `http-server -p 1880`
-6. Go to this site via weaved using google cardboard
+6. Go to this site via weaved using google cardboard in safari
    * Go to https://developer.weaved.com/portal/members/home.php and select the edison*_http link
 
 
