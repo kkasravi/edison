@@ -9,6 +9,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 
 ## Clone a git repo into your directory
 1. Create a subdirectory called lesson6
+   * `mkdir lesson6`
 2. Change directory to go into the lesson6 directory
    * `cd lesson6`
 3. Clone a webvr repo using git
@@ -19,7 +20,6 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `http-server -p 1880`
 6. Go to this site via weaved using google cardboard in safari
    * Go to https://developer.weaved.com/portal/members/home.php and select the edison*_http link
-
 
 ## Change the background of the webvr scene
 1. cd to the img directory under webvr-boilerplate
