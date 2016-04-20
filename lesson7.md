@@ -15,7 +15,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 3. Clone the pebble-talk2web repo using git
    * `git clone https://github.com/kkasravi/pebble-talk2web'
 4. Change to this directory
-   * `cd pebble-talk2web`
+   * `cd pebble-talk2web/src`
 5. Run an http server
    * `node server.js`
 
