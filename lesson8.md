@@ -24,7 +24,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 6. Edit auth_code.sh and update CLIENT_ID, DEVICE_TYPE_ID and DEVICE_SERIAL_NUMBER using information from the browser
    * `vi auth_code.sh`
 7. Run auth_code.sh
-   * `.\auth_code.sh`
+   * `./auth_code.sh`
 8. Take the output from auth_code.sh and place it in the browser URL
 9. Select 'Continue' in the browser
 10. Copy the code part of the URL and edit auth_token.sh
