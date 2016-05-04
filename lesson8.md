@@ -12,7 +12,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 
 ## Clone https://github.com/kkasravi/alexa.git
 1. Create a subdirectory called lesson8
-   * `mkdir lesson7`
+   * `mkdir lesson8`
 2. Change directory to go into the lesson8 directory
    * `cd lesson8`
 3. Clone alexa 
