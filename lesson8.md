@@ -6,6 +6,8 @@ It will provide a ssh login similar to
 ssh -l LOGIN proxya.yoics.net -p 34141
 2. Bring up a terminal window and type in the command above substituting LOGIN with your name
    * example `ssh -l freddie proxya.yoics.net -p 34141`
+## Overview
+![Request flow](https://github.com/kkasravi/edison/blob/master/diagram.png)
 
 ## Clone https://github.com/kkasravi/alexa.git
 1. Create a subdirectory called lesson8
