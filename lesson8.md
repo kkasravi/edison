@@ -30,8 +30,8 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 10. Copy the code part of the URL and edit auth_token.sh
    * `vi auth_token.sh`
 11. Edit auth_code.sh and update CLIENT_ID, CLIENT_SECRET and CODE using information from the browser
-12.    * `vi auth_code.sh`
-13. Run auth_token.sh
+   * `vi auth_code.sh`
+12. Run auth_token.sh
    * `.\auth_token.sh`
 
 ## Clone AVS-server
