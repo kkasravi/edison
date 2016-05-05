@@ -60,8 +60,6 @@ ssh -l LOGIN proxya.yoics.net -p 34141
    * `cd /home/root/AVS-client`
 2. run AVS-client
    * `gulp`
-   * `cd /home/root/AVS-client`
-  
  
 
 
