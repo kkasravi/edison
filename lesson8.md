@@ -51,7 +51,7 @@ ssh -l LOGIN proxya.yoics.net -p 34141
 6. edit auth.json, deviceSecret.json and token.json and insert info from browser
    * `vi auth.json`
    * `vi deviceSecret.json`
-   * `vi token.sh`
+   * `vi token.json`
 7. run AVS-server
    * `npm start`
 
